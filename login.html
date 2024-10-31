@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Template base para paginas web-->
+<html lang="es">
+
+    <head>
+        
+        <title> Productes </title> <!--Esto cambia el nombre de la web-->
+        <meta charset="UTF-8">
+        <meta name="Carlos García Mollá" content="Login">
+        <link rel="stylesheet" href="login.php">
+    
+    </head>
+
+    <body>
+        <form method="post" action="http://192.168.14.100/server/login.php" style="width: 30%; margin: auto;">      
+        <h3>Login</h3>
+        <fieldset>
+            <legend>Datos Básicos</legend>
+            <label for="user" >Nombre</label>
+            <br>
+            <input type="text" name="user" maxlength="30" id="user">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" maxlength="30" id="password">
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    </body>
+
+</html>
